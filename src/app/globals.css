@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bcs-navy: #0b1f33;
+  --bcs-teal: #0d9488;
+  --bcs-gold: #c9a227;
+  --bcs-ink: #e2e8f0;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(13, 148, 136, 0.18), transparent),
+    radial-gradient(900px 500px at 90% 0%, rgba(201, 162, 39, 0.12), transparent),
+    #020617;
+}
+
+.bcs-panel {
+  @apply rounded-xl border border-slate-800/80 bg-slate-900/60 backdrop-blur;
+}
