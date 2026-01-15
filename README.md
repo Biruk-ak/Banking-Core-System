@@ -23,3 +23,7 @@ npm run dev
 npm test
 npm run build
 ```
+
+## Operations
+
+Run `docker compose up -d` for local infra (Postgres, Redis, Kafka, Elasticsearch).
