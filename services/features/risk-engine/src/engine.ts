@@ -80,7 +80,7 @@ export class RiskEngineEngine {
     });
     this.registerRule((input) => {
       if (input.country && ['KP', 'IR', 'SY', 'CU'].includes(input.country)) {
-        return { code: 'risk-engine.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 50 };
+        return { code: 'risk-engine.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 80 };
       }
       return null;
     });

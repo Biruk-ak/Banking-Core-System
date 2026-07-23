@@ -80,7 +80,7 @@ export class AiAssistantEngine {
     });
     this.registerRule((input) => {
       if (input.country && ['KP', 'IR', 'SY', 'CU'].includes(input.country)) {
-        return { code: 'ai-assistant.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 50 };
+        return { code: 'ai-assistant.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 80 };
       }
       return null;
     });

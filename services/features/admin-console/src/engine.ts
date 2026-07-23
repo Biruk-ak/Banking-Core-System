@@ -80,7 +80,7 @@ export class AdminConsoleEngine {
     });
     this.registerRule((input) => {
       if (input.country && ['KP', 'IR', 'SY', 'CU'].includes(input.country)) {
-        return { code: 'admin-console.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 50 };
+        return { code: 'admin-console.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 80 };
       }
       return null;
     });

@@ -80,7 +80,7 @@ export class KycEngine {
     });
     this.registerRule((input) => {
       if (input.country && ['KP', 'IR', 'SY', 'CU'].includes(input.country)) {
-        return { code: 'kyc.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 50 };
+        return { code: 'kyc.sanctioned_geo', severity: 'critical', message: 'Sanctioned geography', score: 80 };
       }
       return null;
     });
