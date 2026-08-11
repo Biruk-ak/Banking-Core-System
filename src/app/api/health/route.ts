@@ -7,5 +7,6 @@ export async function GET() {
     owner: 'Biruk-ak',
     email: 'birukaklilu0110@gmail.com',
     timestamp: new Date().toISOString(),
+    build: process.env.BCS_BUILD_ID ?? 'local',
   });
 }
