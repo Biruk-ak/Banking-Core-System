@@ -15,3 +15,9 @@ Owner: Biruk-ak <birukaklilu0110@gmail.com>
 ## Bounded contexts
 
 Products, Features (compliance & engagement), Ledger, Workflows, Platform modules.
+
+## Quickstart for contributors
+
+1. Read `CONTRIBUTING.md`
+2. Run `npm test` before opening a PR
+3. Prefer small PRs scoped to one bounded context
